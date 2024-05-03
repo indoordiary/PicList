@@ -1,0 +1,359 @@
+{
+  "picBed": {
+    "current": "lskyplist",
+    "uploader": "lskyplist",
+    "smms": {
+      "token": ""
+    },
+    "list": [
+      {
+        "type": "tcyun",
+        "name": "腾讯云COS",
+        "visible": false
+      },
+      {
+        "type": "aliyun",
+        "name": "阿里云OSS",
+        "visible": false
+      },
+      {
+        "type": "smms",
+        "name": "SM.MS",
+        "visible": false
+      },
+      {
+        "type": "github",
+        "name": "GitHub",
+        "visible": true
+      },
+      {
+        "type": "qiniu",
+        "name": "七牛云",
+        "visible": false
+      },
+      {
+        "type": "imgur",
+        "name": "Imgur",
+        "visible": false
+      },
+      {
+        "type": "upyun",
+        "name": "又拍云",
+        "visible": false
+      },
+      {
+        "type": "webdavplist",
+        "name": "WebDAV",
+        "visible": true
+      },
+      {
+        "type": "local",
+        "name": "本地上传",
+        "visible": false
+      },
+      {
+        "type": "sftpplist",
+        "name": "内置SFTP",
+        "visible": false
+      },
+      {
+        "type": "telegraphplist",
+        "name": "Telegraph",
+        "visible": false
+      },
+      {
+        "type": "piclist",
+        "name": "PicList",
+        "visible": false
+      },
+      {
+        "type": "lskyplist",
+        "name": "Lsky",
+        "visible": false
+      },
+      {
+        "type": "aws-s3-plist",
+        "name": "AWS S3",
+        "visible": false
+      },
+      {
+        "type": "lankong",
+        "name": "lankong",
+        "visible": true
+      }
+    ],
+    "github": {
+      "_configName": "HEXO",
+      "_id": "5d46646b-ea67-498c-8adc-4046d4461950",
+      "_createdAt": 1699348041149,
+      "_updatedAt": 1699350194655,
+      "repo": "indoordiary/PicGoDemo",
+      "branch": "master",
+      "token": "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",
+      "path": "img/",
+      "customUrl": "https://source.indoordiary.top"
+    },
+    "imgur": {
+      "_configName": "Default",
+      "_id": "4a1293c5-e79d-4414-a6fd-b61fe7b58a71",
+      "_createdAt": 1699351554800,
+      "_updatedAt": 1699351554800
+    },
+    "webdavplist": {
+      "_configName": "Alist",
+      "_id": "1e648fde-7a11-42cd-8ffb-5111f6ff5b29",
+      "_createdAt": 1701498156765,
+      "_updatedAt": 1714752125712,
+      "host": "https://pan.furrina.cn/dav/",
+      "sslEnabled": true,
+      "username": "admin",
+      "password": "Li2244193927.",
+      "path": "/secret/189cloud/Pictrues",
+      "webpath": "https://pan.furrina.cn",
+      "customUrl": "https://pan.furrina.cn",
+      "authType": "basic",
+      "options": ""
+    },
+    "piclist": {
+      "_configName": "Default",
+      "_id": "46b32e53-91a6-41c6-b892-e0f6671e0351",
+      "_createdAt": 1701506624591,
+      "_updatedAt": 1701506624591
+    },
+    "lankong": {
+      "lskyProVersion": "V2",
+      "server": "https://7bu.top",
+      "token": "Bearer 1023|a1286ibfnvE32lPgA7wRuQIq5YcFLex7xHBnAoxu",
+      "strategyId": null,
+      "albumId": null,
+      "permission": "private(default)",
+      "ignoreCertErr": false,
+      "syncDelete": true,
+      "_configName": "去不图床",
+      "_id": "c2920d94-541b-4eb3-81f9-ea50eca1874d",
+      "_createdAt": 1701512255511,
+      "_updatedAt": 1701513658065
+    },
+    "web-uploader-custom-url-prefix": {
+      "_configName": "去不图床",
+      "_id": "165436e4-642a-4150-8466-0ca984dd9d14",
+      "_createdAt": 1701512434953,
+      "_updatedAt": 1701512960567,
+      "url": "https://7bu.top/api/v1/upload",
+      "paramName": "file",
+      "jsonPath": "data.links.url",
+      "customHeader": "{\"Authorization\": \"Bearer 1023|a1286ibfnvE32lPgA7wRuQIq5YcFLex7xHBnAoxu\"}",
+      "customBody": null,
+      "imageUrlPrefix": null
+    },
+    "lskyplist": {
+      "_configName": "Default",
+      "_id": "0ca62920-f7c9-41f9-ba9f-5887cb24d3b5",
+      "_createdAt": 1714752251590,
+      "_updatedAt": 1714752251590
+    },
+    "aws-s3-plist": {
+      "_configName": "Default",
+      "_id": "79b3bfab-733e-4a33-9151-c8157e552a07",
+      "_createdAt": 1714752259534,
+      "_updatedAt": 1714752259534
+    }
+  },
+  "settings": {
+    "shortKey": {
+      "picgo:upload": {
+        "enable": true,
+        "key": "CommandOrControl+Shift+P",
+        "name": "upload",
+        "label": "QUICK_UPLOAD"
+      }
+    },
+    "showUpdateTip": true,
+    "server": {
+      "port": 36677,
+      "host": "127.0.0.1",
+      "enable": true
+    },
+    "pasteStyle": "URL",
+    "privacyEnsure": true,
+    "isListeningClipboard": false,
+    "deleteCloudFile": true,
+    "useShortUrl": false,
+    "manualPageOpen": "window",
+    "sync": {
+      "type": "github",
+      "username": "indoordiary",
+      "repo": "PicList",
+      "branch": "main",
+      "token": "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",
+      "endpoint": "",
+      "proxy": "",
+      "interval": 60
+    }
+  },
+  "needReload": false,
+  "picgoPlugins": {
+    "picgo-plugin-lankong": true
+  },
+  "debug": true,
+  "PICGO_ENV": "GUI",
+  "uploader": {
+    "github": {
+      "configList": [
+        {
+          "_configName": "HEXO",
+          "_id": "5d46646b-ea67-498c-8adc-4046d4461950",
+          "_createdAt": 1699348041149,
+          "_updatedAt": 1699350194655,
+          "repo": "indoordiary/PicGoDemo",
+          "branch": "master",
+          "token": "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",
+          "path": "img/",
+          "customUrl": "https://source.indoordiary.top"
+        }
+      ],
+      "defaultId": "5d46646b-ea67-498c-8adc-4046d4461950"
+    },
+    "imgur": {
+      "configList": [
+        {
+          "_configName": "Default",
+          "_id": "4a1293c5-e79d-4414-a6fd-b61fe7b58a71",
+          "_createdAt": 1699351554800,
+          "_updatedAt": 1699351554800
+        }
+      ],
+      "defaultId": "4a1293c5-e79d-4414-a6fd-b61fe7b58a71"
+    },
+    "webdavplist": {
+      "configList": [
+        {
+          "_configName": "Alist",
+          "_id": "1e648fde-7a11-42cd-8ffb-5111f6ff5b29",
+          "_createdAt": 1701498156765,
+          "_updatedAt": 1714752125712,
+          "host": "https://pan.furrina.cn/dav/",
+          "sslEnabled": true,
+          "username": "admin",
+          "password": "Li2244193927.",
+          "path": "/secret/189cloud/Pictrues",
+          "webpath": "https://pan.furrina.cn",
+          "customUrl": "https://pan.furrina.cn",
+          "authType": "basic",
+          "options": ""
+        }
+      ],
+      "defaultId": "1e648fde-7a11-42cd-8ffb-5111f6ff5b29"
+    },
+    "piclist": {
+      "configList": [
+        {
+          "_configName": "Default",
+          "_id": "46b32e53-91a6-41c6-b892-e0f6671e0351",
+          "_createdAt": 1701506624591,
+          "_updatedAt": 1701506624591
+        }
+      ],
+      "defaultId": "46b32e53-91a6-41c6-b892-e0f6671e0351"
+    },
+    "lankong": {
+      "configList": [
+        {
+          "lskyProVersion": "V2",
+          "server": "https://7bu.top",
+          "token": "Bearer 1023|a1286ibfnvE32lPgA7wRuQIq5YcFLex7xHBnAoxu",
+          "strategyId": null,
+          "albumId": null,
+          "permission": "private(default)",
+          "ignoreCertErr": false,
+          "syncDelete": true,
+          "_configName": "去不图床",
+          "_id": "c2920d94-541b-4eb3-81f9-ea50eca1874d",
+          "_createdAt": 1701512255511,
+          "_updatedAt": 1701513658065
+        }
+      ],
+      "defaultId": "c2920d94-541b-4eb3-81f9-ea50eca1874d"
+    },
+    "web-uploader-custom-url-prefix": {
+      "configList": [
+        {
+          "_configName": "去不图床",
+          "_id": "165436e4-642a-4150-8466-0ca984dd9d14",
+          "_createdAt": 1701512434953,
+          "_updatedAt": 1701512960567,
+          "url": "https://7bu.top/api/v1/upload",
+          "paramName": "file",
+          "jsonPath": "data.links.url",
+          "customHeader": "{\"Authorization\": \"Bearer 1023|a1286ibfnvE32lPgA7wRuQIq5YcFLex7xHBnAoxu\"}",
+          "customBody": null,
+          "imageUrlPrefix": null
+        }
+      ],
+      "defaultId": "165436e4-642a-4150-8466-0ca984dd9d14"
+    },
+    "lskyplist": {
+      "configList": [
+        {
+          "_configName": "Default",
+          "_id": "0ca62920-f7c9-41f9-ba9f-5887cb24d3b5",
+          "_createdAt": 1714752251590,
+          "_updatedAt": 1714752251590
+        }
+      ],
+      "defaultId": "0ca62920-f7c9-41f9-ba9f-5887cb24d3b5"
+    },
+    "aws-s3-plist": {
+      "configList": [
+        {
+          "_configName": "Default",
+          "_id": "79b3bfab-733e-4a33-9151-c8157e552a07",
+          "_createdAt": 1714752259534,
+          "_updatedAt": 1714752259534
+        }
+      ],
+      "defaultId": "79b3bfab-733e-4a33-9151-c8157e552a07"
+    }
+  },
+  "buildIn": {
+    "compress": {
+      "quality": 100,
+      "isConvert": true,
+      "convertFormat": "webp",
+      "isReSize": false,
+      "reSizeWidth": 300,
+      "reSizeHeight": 300,
+      "skipReSizeOfSmallImg": false,
+      "isReSizeByPercent": false,
+      "reSizePercent": 50,
+      "isRotate": false,
+      "rotateDegree": 0,
+      "isRemoveExif": false,
+      "isFlip": false,
+      "isFlop": false
+    },
+    "watermark": {
+      "isAddWatermark": false,
+      "watermarkType": "text",
+      "isFullScreenWatermark": false,
+      "watermarkDegree": 0,
+      "watermarkText": "",
+      "watermarkFontPath": "",
+      "watermarkScaleRatio": 0.15,
+      "watermarkColor": "#CCCCCC73",
+      "watermarkImagePath": "",
+      "watermarkPosition": "southeast"
+    }
+  },
+  "picgo-plugin-lankong": {
+    "lskyProVersion": "V2",
+    "server": "https://7bu.top",
+    "token": "Bearer 1023|a1286ibfnvE32lPgA7wRuQIq5YcFLex7xHBnAoxu",
+    "strategyId": null,
+    "albumId": null,
+    "permission": "private(default)",
+    "ignoreCertErr": false,
+    "syncDelete": false,
+    "_configName": "去不图床"
+  }
+}
